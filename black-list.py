@@ -14,12 +14,12 @@ def check_firewall_rules(ip, rules):
  ##Firewall rules   
 def main():
     firewall_rules = {
-        "192.168.1.1": "block",
+        "192.168.1.2": "block",
         "192.168.1.4": "block",
-        "192.168.1.9": "block",
-        "192.168.1.13": "block",
-        "192.168.1.16": "block",
-        "192.168.1.19": "block"
+        "192.168.1.6": "block",
+        "192.168.1.8": "block",
+        "192.168.1.12": "block",
+        "192.168.1.14": "block"
     }
     
     for _ in range(12):
